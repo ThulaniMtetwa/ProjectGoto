@@ -51,6 +51,9 @@
                                 <rect key="frame" x="259" y="171" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hit Me!"/>
+                                <connections>
+                                    <action selector="showAlert" destination="lE5-9D-LvK" eventType="touchUpInside" id="keW-al-fEX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLk-JV-dwu">
                                 <rect key="frame" x="20" y="270" width="71" height="30"/>
@@ -93,6 +96,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="QhM-PO-2MZ"/>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="lGu-sf-rHY" id="EzL-su-E0o"/>
+                        <outlet property="targetLabel" destination="rmj-bL-rEJ" id="kMB-Q9-hvl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLX-CS-SY8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
